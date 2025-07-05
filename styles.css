@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #94a8ff, #ff9090 );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    min-height: 250px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+}
+
+h1{
+    color: #667eea;
+    font-size: 2.5rem;
+}
+.description{
+    color: grey;
+    font-size: 1.20rem;
+    margin-bottom: 30px;
+}
+.instruction{
+    font-size: 1.10rem;
+    margin-bottom: 10px;
+    color: rgb(83, 83, 83);
+    font-weight: 700;
+}
+#number{
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid rgb(182, 180, 180);
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+
+    
+}
+#convert-btn{
+    height: 50px;
+    width: 150px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(2deg,  #94a8ff, #ff9090 );
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 40px;
+}
+#convert-btn:hover{
+    transform: scale(1.05);
+}
+.roman{
+    margin-bottom: 15px;
+    font-size: 1.10rem;
+    font-weight: 700;
+    color: rgb(83, 83, 83);
+}
+#output{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 70px;
+    width: 400px;
+    border: 2px solid #667eea;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+   
+}
+.guide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: rgb(83, 83, 83);
+}
